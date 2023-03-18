@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
 mainClient = commands.Bot(command_prefix="/", intents =discord.Intents.all())
-mainToken = 'OTc4MzM3NDg5OTgwOTA3NTcw.Gb_qEA.Vxe8CptuotKeFzPqBcH7LNtOklOKqz7K_j_EtM'
+print("Insert discord token:")
+mainToken = input()
 intents = discord.Intents.default()
 intents.message_content = True
 @mainClient.command()
