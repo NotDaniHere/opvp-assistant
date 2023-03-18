@@ -18,7 +18,9 @@ async def hardware_details(ctx):
 async def vote_for_reset(ctx, decision):
     await ctx.respond("Thanks for voting! Your vote may change the future of the server.")
     if decision == "yes":
-        print(ctx.author + " has voted Yes!")
+        print(ctx.author)
+        print("has voted Yes!")
     if decision == "no":
-        print(ctx.author + " has voted No!")
+        print(ctx.author)
+        print("has voted No!")
 bot.run(token)
