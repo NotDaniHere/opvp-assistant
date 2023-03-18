@@ -1,5 +1,4 @@
 import discord
-import time
 from discord.ext import commands
 mainClient = commands.Bot(command_prefix="/", intents =discord.Intents.all())
 print("Insert discord token: ")
