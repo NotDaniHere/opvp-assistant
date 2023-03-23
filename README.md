@@ -8,5 +8,5 @@ To use this as a docker container, do the following:
 
 Command 1: docker run -d -it --name yourname notdanihere/firstimage
 Command 2: docker attach notdanihere/firstimage
-Command 3: Paste your discord token in there.
+Command 3 (not really a command but just do this) : Paste your discord token in there.
 And voila, the bot works, in a docker container!
