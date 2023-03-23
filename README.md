@@ -1,6 +1,6 @@
 # OptiPvP Discord Bot
 
-A discord bot that assits you on the server. Can be containerized (docker). Image is located at notdanihere/firstimage.
+A discord bot that assists you on the server. Can be containerized (docker). Image is located at notdanihere/firstimage.
 This bot also uses an external JSON file for the text commands, to unclog the file of unnecesarrily long details.
 Use this as a bot for learning python, pycord, json, docker etc.
 
