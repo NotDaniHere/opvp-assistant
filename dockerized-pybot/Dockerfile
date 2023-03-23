@@ -4,6 +4,6 @@ RUN apt-get install -y --no-install-recommends
 WORKDIR /assistant
 ADD main.py .
 COPY requirements.txt .
-COPY . /assistant
+COPY text.json .
 RUN pip install -r requirements.txt
 CMD python3 main.py
